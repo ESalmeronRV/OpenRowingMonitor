@@ -43,7 +43,7 @@ U8G2_SH1106_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0,4,5,U8X8_PIN_NONE);
  {
    Timer1.initialize(TIMER_FREQ);  // 10 ms
    Timer1.attachInterrupt( analogReading ) ;
-   Serial.begin(115200); //Disabled by default
+   //Serial.begin(115200); //Disabled by default
    u8g2_SetI2CAddress(u8g2.getU8g2(), 0x3C * 2);
    u8g2.begin();
    showInitScreen = true;
@@ -171,7 +171,6 @@ U8G2_SH1106_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0,4,5,U8X8_PIN_NONE);
 
  void debug_rev(){
   Serial.println("REV detected");
-  //Serial.println(vueltas);
   Serial.println(RPM);
  }
 
@@ -201,13 +200,6 @@ U8G2_SH1106_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0,4,5,U8X8_PIN_NONE);
   if (wattsH * WATTS_TO_KCALH < 1000){
     totalKcal = totalKcal + ( wattsH * WATTS_TO_KCALH);
   }
-  Serial.println(pace);
-  Serial.println(elapsedTime_stroke);
-  Serial.println(watts);
-  Serial.println(wattsH);
-  Serial.println(wattsH * WATTS_TO_KCALH);
-  Serial.println(totalKcal,8);
-  Serial.println("--------");
  }
  
  void loop()
