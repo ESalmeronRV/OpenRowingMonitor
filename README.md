@@ -21,7 +21,7 @@ When you power it on, it will show the main screen:
 
 If you start rowing (triggered by wheel sensor) it will change into training screen:
 
-![image](https://user-images.githubusercontent.com/65807194/129487927-c559b1a2-1bf6-47bf-9032-47df7f328310.png)
+![image](https://user-images.githubusercontent.com/65807194/129487998-bcbe2150-66ec-42d3-a2d2-798ba0e578fc.png)
 
 
 # Materials used:
