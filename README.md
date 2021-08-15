@@ -1,5 +1,4 @@
 # OpenRowingMonitor
-Better rowing machine monitor for Lidl (Crivit) Rowing machine
 
 This is an attempt to improve the Lidl Rowing machine monitor. 
 
