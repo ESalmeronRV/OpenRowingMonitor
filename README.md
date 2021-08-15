@@ -7,7 +7,7 @@ So, I've tried to improve it by directly using sensor's signals and processing t
 
 # DISCLAIMER: 
 
-This is a project I started for fun and it sould not be considered accurrate in any way. It requires to dissasembly your monitor and could lead to broke your machine. 
+This is a project I started for fun and it should not be considered accurrate in any way. It requires to dissasembly your monitor and could lead to broke your machine. 
 So, if you break it, it is only your responsability. 
 
 On the other hand, feel free to do whatever you want with this. 
