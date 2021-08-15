@@ -24,6 +24,7 @@ If you start rowing (triggered by wheel sensor) it will change into training scr
 
 ![image](https://user-images.githubusercontent.com/65807194/129487998-bcbe2150-66ec-42d3-a2d2-798ba0e578fc.png)
 
+video: https://youtu.be/AEMkK2atfyk
 
 # Materials used:
 - Arduino UNO
