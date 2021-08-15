@@ -13,7 +13,16 @@ So, if you break it, it is only your responsability.
 
 # How does it works
 
-Basically, the ergometer has 4 wires. VCC, GND, Spinning sensor and seat sensor. We dont need VCC since its 3.3V and we cannot use it as a power source for the arduino (?). All you need to do is to connect GNDs to each other (Rowing machine with arduino) and connect Spinning sensor to A0 and seat sensor to A1. Would be nice to add a little capacitor in parallel between the sensors and GND to prevent noise, but in my experience its enough with the debounce mechanism inside the code.
+Basically, the ergometer has 4 wires. VCC, GND, Spinning sensor and seat sensor. We dont need VCC since its 3.3V and we cannot use it as a power source for the arduino (?). All you need to do is to connect GNDs to each other (Rowing machine with arduino) and connect Spinning sensor to A0 and seat sensor to A1. Would be nice to add a little capacitor in parallel between the sensors and GND to prevent noise, but in my experience its enough with the debounce mechanism inside the code. It uses a timer interrupt to check the analog inputs every 20ms, more than enough for our needs.
+
+When you power it on, it will show the main screen:
+
+![image](https://user-images.githubusercontent.com/65807194/129487906-eb1df45e-8502-4836-8924-c8bddca48a47.png)
+
+If you start rowing (triggered by wheel sensor) it will change into training screen:
+
+![image](https://user-images.githubusercontent.com/65807194/129487927-c559b1a2-1bf6-47bf-9032-47df7f328310.png)
+
 
 # Materials used:
 - Arduino UNO
