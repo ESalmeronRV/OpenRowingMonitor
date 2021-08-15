@@ -28,7 +28,7 @@ If you start rowing (triggered by wheel sensor) it will change into training scr
 - Arduino UNO
 - I2C OLED Display
 
-# Version 1.0. Initial release.
+# Version 0.1 Initial release.
 
 What is working:
 Measuring:
